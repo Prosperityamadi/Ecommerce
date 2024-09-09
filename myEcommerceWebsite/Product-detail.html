@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Details-Amaadee Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="img/logo1.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="menu-list">
+                        <li><a href="explore.html">Home</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                    <a href=""> <img src="img/cart.png" width="30px" height="30px" style="padding-right: 2px; margin-top: 14px; margin-right:1px;"></a>
+                </nav>
+                <div class="menu-icon" onclick="toggleMenu(this)">
+                    <div style="padding-left: 20px; margin-top: 15px;">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div> 
+                    </div>
+                </div>
+                
+                <script>
+                  function toggleMenu(x) {
+                    x.classList.toggle("change"); // Toggles the hamburger icon animation
+                    document.getElementById("menu-list").classList.toggle("show-menu"); // Toggles the menu visibility
+                  }
+                </script>
+            </div>
+    </div>
+
+<!--      Single Detail Products            -->
+        <div class="single-product">
+            <div class="row">
+                <div class="col-2">
+                    <img src="img/COOFANDY Men's Zipper Polo Shirts Short Sleeve-1.jpg " style="width: 300px; height: 450px; margin: 0 300px  ;" id="productImg">
+                    <div class="small-image-row">
+                        <div class="small-image-col">
+                            <img src="img/COOFANDY Men's Zipper Polo Shirts Short Sleeve-2.jpg"  style="width: 50px; margin-left: 320px;" class="small-img">
+                        </div>
+                        <div class="small-image-col">
+                            <img src="img/COOFANDY Men's Zipper Polo Shirts Short Sleeve-3.jpg" style="width: 50px;" class="small-img">
+                        </div><div class="small-image-col">
+                            <img src="img/COOFANDY Men's Zipper Polo Shirts Short Sleeve-4.jpg" style="width: 50px; margin-right: 160px;" class="small-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <p>Home/T-shirt</p>
+                    <h1>COOFANDY Men's Zipper Polo Shirts Short Sleeve</h1>
+                    <h4>$55.00</h4>
+                    <select>
+                        <option>Select Size</option>
+                        <option>XXL</option>
+                        <option>XL</option>
+                        <option>L</option>
+                        <option>M</option>
+                        <option>S</option>
+                    </select>
+                    <input type="number" value="1">
+                    <a href="" class="btn">Add To Cart </a>
+                    <h3>Product Details <i class="fa fa-indent"></i> </h3>
+                    <br>
+                    <p>Give your summer wardrobe a style upgrade with the COOFANDY Men's Zipper Polo Shirts Short Sleeve. Team it with a pair of trouser for a great
+                        style.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--             title           -->
+        <div class="small-container">
+            <div class="row-2">
+                <h2>Related Products</h2>
+                <p>View More</p>
+            </div>
+        </div>
+
+        <div class="small-container">
+            <div class="row">
+                <div class="col-4">                                
+                    <img src="img/COOFANDY Men's Zipper Polo Shirts Short Sleeve-2.jpg" height="285px" width="300px">
+                    <h4>COOFANDY Men's Zipper Polo Shirts Short Sleeve</h4>
+                    <div class="rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>        
+                    </div>
+                    <p >$55.00</p>
+                </div>
+                <div class="col-4">                                
+                    <img src="img/Luxury Trendy Gem Cut Rimless Sunglasses(latest7).jpg" style="margin-top: 140px;">
+                    <h4>COLuxury Trendy Gem Cut Rimless Sunglasses</h4>
+                    <div class="rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>        
+                    </div>
+                    <p>$33.99</p>
+                </div>
+                <div class="col-4">                                
+                    <img src="img/TACVASEN Men's Bomber Jacket(latest1).jpg" style="margin-top: 20px;">
+                    <h4>TACVASEN Men's Bomber Jacket</h4>
+                    <div class="rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>        
+                    </div>
+                    <p>$59.99</p>
+                </div>
+                <div class="col-4">                                
+                    <img src="img/COOFANDY Mens Casual Button Down(latest5).jpg" >
+                    <h4>COOFANDY Mens Casual Button Down</h4>
+                    <div class="rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>        
+                    </div>
+                    <p>$60.00</p>
+                </div>
+            </div>
+        </div>   
+    
+     <!-------- Footer -------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download for Android and IOS Devices</p>
+                    <div class="app-logo">
+                        <img src="img/logo-2.png" height="30px">
+                        <img src="img/logo-3.png" height="30px">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="img/logo1.png" height="40px">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and <br> Benefits Of Fashion, Accessible to Others.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Usefull Links </h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>TWitter</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright"> Copyright 2024 - &#169;Amaadee</p>
+        </div>
+    </div>
+    <!-- JavaScript for product -->
+     <script>
+        var productImg = document.getElementById("productImg");
+        var smallImg = document.getElementsByClassName("small-img");
+
+        smallImg[0].oneclick = function()
+        {
+            productImg.src = smallImg[0].src
+        }
+        smallImg[1].oneclick = function()
+        {
+            productImg.src = smallImg[1].src
+        }
+        smallImg[2].oneclick = function()
+        {
+            productImg.src = smallImg[2].src
+        }
+        smallImg[3].oneclick = function()
+        {
+            productImg.src = smallImg[3].src
+        }
+     </script>
+</body>
+</html>
